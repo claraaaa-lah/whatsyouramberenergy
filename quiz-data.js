@@ -83,81 +83,81 @@ window.QUIZ_DATA = {
     {
       prompt: "You're walking into a Pokémon convention with your friends. What's on your mind?",
       answers: [
-        { text: "Locked in. You know exactly what you're looking for, and you are not leaving until the mission is complete.", archetype: "locked_in" },
-        { text: "Curious and excited, but also a little awkward. There is so much to see and you are trying not to look too overwhelmed.", archetype: "cinnamon_roll" },
-        { text: "First priority: make sure every single friend is accounted for and nobody gets separated.", archetype: "mama_bear" },
-        { text: "You're excited to meet people, and by the end of the day you've accidentally charmed your way into a suspicious number of new Instagram mutuals.", archetype: "mother" },
-        { text: "It has been three minutes and you've already bumped into someone and somehow broken something.", archetype: "chaotic_sibling" }
+        { text: "You know exactly what you're here for. Mission first.", archetype: "locked_in" },
+        { text: "Excited and a little awkward. You're trying not to get too overwhelmed.", archetype: "cinnamon_roll" },
+        { text: "Making sure nobody gets separated before anything else.", archetype: "mama_bear" },
+        { text: "By the end of the day you've somehow collected a suspicious number of new Instagram mutuals.", archetype: "mother" },
+        { text: "It's been three minutes and you've already broken something.", archetype: "chaotic_sibling" }
       ]
     },
     {
       prompt: "Your friend is stressed out from work or school and needs a distraction. What do you do?",
       answers: [
-        { text: "You draft an elaborate plan with all their favorite activities and make sure they have the best, most well-organized time ever.", archetype: "locked_in" },
-        { text: "You send them a silly meme, sit with them quietly, and let them know they do not have to talk if they do not want to.", archetype: "cinnamon_roll" },
-        { text: "You encourage them, remind them they've got this, and keep telling them everything is going to be okay eventually.", archetype: "mama_bear" },
-        { text: "You show up with gifts, snacks, and all their favorite things, then take care of them for the rest of the night like it is your calling.", archetype: "mother" },
-        { text: "You ask who or what is stressing them out, and if it is a person, you are suddenly open to violence.", archetype: "chaotic_sibling" }
+        { text: "You plan a full day of their favorite activities and make sure all stress are gone by tonight.", archetype: "locked_in" },
+        { text: "You send a silly meme, sit with them quietly, and let them not talk if they don't want to.", archetype: "cinnamon_roll" },
+        { text: "You remind them they've got this and keep the encouragement coming until they believe it.", archetype: "mama_bear" },
+        { text: "You show up with snacks, gifts, and their favorite things like it's your divine calling.", archetype: "mother" },
+        { text: "You ask who stressed them out, and if it's a person, you're ready to start throwing hands.", archetype: "chaotic_sibling" }
       ]
     },
     {
       prompt: "Your friend group is trying to decide where to eat. What are you doing?",
       answers: [
-        { text: "You immediately narrow it down to the top two options and start optimizing for distance, price, and quality.", archetype: "locked_in" },
-        { text: "You are fine with anything, but if someone mentions a cute themed café, your eyes light up instantly.", archetype: "cinnamon_roll" },
-        { text: "You are making sure everyone's dietary restrictions, preferences, and moods are being considered.", archetype: "mama_bear" },
-        { text: "You casually suggest a place with great vibes, and somehow everyone agrees with you immediately.", archetype: "mother" },
-        { text: "You keep saying you are okay with anything, but every time someone suggests a place, you say no.", archetype: "chaotic_sibling" }
+        { text: "You narrow it down to two options and start optimizing for distance, price, and quality.", archetype: "locked_in" },
+        { text: "You're fine with anything — until someone mentions a themed café and your eyes light up.", archetype: "cinnamon_roll" },
+        { text: "You're considering everyone's dietary restrictions while keeping within budget.", archetype: "mama_bear" },
+        { text: "You casually suggest a place and somehow everyone agrees immediately.", archetype: "mother" },
+        { text: "You say you're fine with anything, then veto every suggestion.", archetype: "chaotic_sibling" }
       ]
     },
     {
       prompt: "You get complimented out of nowhere. How do you react?",
       answers: [
         { text: "You say thanks, nod once, and keep it moving.", archetype: "locked_in" },
-        { text: "You get shy immediately and do that awkward little laugh like you do not know what to do with yourself.", archetype: "cinnamon_roll" },
-        { text: "You smile really big, say that is so sweet, and then spend the next ten minutes thinking about it.", archetype: "mama_bear" },
-        { text: "You accept it effortlessly, return the compliment with a big smile, and somehow leave them flustered.", archetype: "mother" },
-        { text: "You say thank you and try to return the compliment, but fumble so badly you just scream “FAAHHHHH.”", archetype: "chaotic_sibling" }
+        { text: "You get shy immediately and do that awkward little laugh.", archetype: "cinnamon_roll" },
+        { text: "You smile really big and think about it for the next ten minutes.", archetype: "mama_bear" },
+        { text: "You accept it effortlessly, return it with a smile, and somehow leave them flustered.", archetype: "mother" },
+        { text: 'You try to return the compliment but fumble so badly you just scream "FFAAAHHHH".', archetype: "chaotic_sibling" }
       ]
     },
     {
       prompt: "It's game night and you guys are playing Monopoly. What kind of player are you?",
       answers: [
         { text: "Focused, strategic, and absolutely playing to win.", archetype: "locked_in" },
-        { text: "You can't wait for this round to finish so you can start playing MTG instead.", archetype: "cinnamon_roll" },
-        { text: "Making sure nobody feels left out and hyping up the people who are losing.", archetype: "mama_bear" },
-        { text: "You picked it up easily and are weirdly good at it even though it is your first time playing.", archetype: "mother" },
-        { text: "You find a way to cheat and force one player to go to jail as much as possible.", archetype: "chaotic_sibling" }
+        { text: "Waiting for this to end so you can play MTG instead.", archetype: "cinnamon_roll" },
+        { text: "Hyping up whoever's losing and making sure nobody feels left out.", archetype: "mama_bear" },
+        { text: "Weirdly good at it even though it's your first time.", archetype: "mother" },
+        { text: "Your mission is to make a player go to jail as much as possible.", archetype: "chaotic_sibling" }
       ]
     },
     {
       prompt: "What kind of text message energy do you have?",
       answers: [
-        { text: "Clear, direct, efficient, and occasionally terrifying.", archetype: "locked_in" },
+        { text: "Clear, direct, and occasionally terrifying.", archetype: "locked_in" },
         { text: "A lot of cute stickers.", archetype: "cinnamon_roll" },
-        { text: "Always quick to reply and checks in on others.", archetype: "mama_bear" },
+        { text: "Always quick to reply and checks in on people.", archetype: "mama_bear" },
         { text: "Remembers little details and follows up on them later.", archetype: "mother" },
-        { text: "Constantly references memes.", archetype: "chaotic_sibling" }
+        { text: "Ninety percent meme references.", archetype: "chaotic_sibling" }
       ]
     },
     {
       prompt: "Be honest: what's your biggest weakness?",
       answers: [
-        { text: "You can get too intense when you care about something.", archetype: "locked_in" },
-        { text: "You are adorable, but deeply awkward in ways that cannot be explained.", archetype: "cinnamon_roll" },
-        { text: "You care so much about other people that you forget to protect your own energy.", archetype: "mama_bear" },
-        { text: "You do not always realize the effect you have on people, and that is somehow even more dangerous.", archetype: "mother" },
-        { text: "Having too much fun and sometimes getting yourself into trouble without knowing why.", archetype: "chaotic_sibling" }
+        { text: "You get too intense when you care about something.", archetype: "locked_in" },
+        { text: "Adorable but deeply, inexplicably awkward.", archetype: "cinnamon_roll" },
+        { text: "You care so much about others that you forget to protect your own energy.", archetype: "mama_bear" },
+        { text: "You don't always realize the effect you have on people, which makes it worse.", archetype: "mother" },
+        { text: "You have too much fun and keep ending up in trouble you can't explain.", archetype: "chaotic_sibling" }
       ]
     },
     {
       prompt: "Pick the vibe that feels the most like your aura.",
       answers: [
-        { text: "Focused, sharp, and impossible to distract.", archetype: "locked_in" },
-        { text: "Sweet, awkward, and full of niche little interests.", archetype: "cinnamon_roll" },
-        { text: "Warm, reliable, and quietly taking care of everyone.", archetype: "mama_bear" },
-        { text: "Charming, magnetic, and somehow always the moment.", archetype: "mother" },
-        { text: "Fun, unpredictable, and one bad idea away from a story.", archetype: "chaotic_sibling" }
+        { text: "Focused, sharp, impossible to distract.", archetype: "locked_in" },
+        { text: "Sweet, awkward, full of niche little interests.", archetype: "cinnamon_roll" },
+        { text: "Warm, reliable, quietly holding everyone together.", archetype: "mama_bear" },
+        { text: "Charming, magnetic, somehow always the moment.", archetype: "mother" },
+        { text: "Fun, unpredictable, one bad idea away from a great story.", archetype: "chaotic_sibling" }
       ]
     }
   ],

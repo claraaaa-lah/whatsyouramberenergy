@@ -107,7 +107,7 @@ window.QUIZ_DATA = {
         { text: "You're fine with anything — until someone mentions a themed café and your eyes light up.", archetype: "cinnamon_roll" },
         { text: "You're considering everyone's dietary restrictions while keeping within budget.", archetype: "mama_bear" },
         { text: "You casually suggest a place and somehow everyone agrees immediately.", archetype: "mother" },
-        { text: "You say you're fine with anything, then veto every suggestion.", archetype: "chaotic_sibling" }
+        { text: "You say you're fine with anything, then says 'no' to every suggestion.", archetype: "chaotic_sibling" }
       ]
     },
     {

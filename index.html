@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Which Amber Glenn's energy are you?</title>
+  <meta name="description" content="A playful personality quiz to find out which Amber Glenn energy you give." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="quiz-container">
+
+  <!-- LANDING -->
+  <section class="screen active" id="screen-landing">
+    <div class="landing">
+      <span class="landing-emoji">⛸️</span>
+      <h1>Which <em>Amber Glenn's</em> energy are you?</h1>
+      <p>So Amber has been flooding my feed lately, and I thought it would be cute to build this because her personality is really adorable. Answer a few questions and find out which Amber Glenn energy you give!</p>
+      <button class="start-btn" id="start-btn">Start the quiz</button>
+      <div class="landing-meta">8 questions · about 2 minutes</div>
+    </div>
+    <div class="footer">made with ♥ for the Amber Glenn fandom</div>
+  </section>
+
+  <!-- QUESTION -->
+  <section class="screen" id="screen-quiz">
+    <div class="question-card">
+      <div class="progress-header">
+        <span id="progress-label">Question 1 of 8</span>
+        <span id="progress-percent">12%</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:12%"></div></div>
+      <div class="question-text" id="question-prompt"></div>
+      <ul class="options" id="answers-list"></ul>
+    </div>
+    <div class="footer">made with ♥ for the Amber Glenn fandom</div>
+  </section>
+
+  <!-- RESULT -->
+  <section class="screen result-screen" id="screen-result">
+    <div class="result-card" id="result-card">
+      <div class="result-label">Your Amber energy is...</div>
+      <span class="result-emoji" id="result-emoji"></span>
+      <div class="result-name" id="result-title"></div>
+      <div class="result-desc" id="result-description"></div>
+      <ul class="traits-box" id="result-traits-wrap">
+        <div class="traits-title">Traits</div>
+        <div id="result-traits"></div>
+      </ul>
+      <div class="result-quote" id="result-closer"></div>
+      <div class="result-actions">
+        <button class="action-btn" id="share-btn">Share your result</button>
+        <button class="action-btn secondary" id="restart-btn">Retake Quiz</button>
+      </div>
+      <div class="share-status" id="share-status" role="status" aria-live="polite"></div>
+    </div>
+    <div class="footer">made with ♥ for the Amber Glenn fandom</div>
+  </section>
+
+</div>
+
+<script src="quiz-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -83,7 +83,7 @@ window.QUIZ_DATA = {
     {
       prompt: "You're walking into a Pokémon convention with your friends. What's on your mind?",
       answers: [
-        { text: "You know exactly what you're here for. Mission first.", archetype: "locked_in" },
+        { text: "You know exactly what you're here for. Goes striaght to trading cards.", archetype: "locked_in" },
         { text: "Excited and a little awkward. You're trying not to get too overwhelmed.", archetype: "cinnamon_roll" },
         { text: "Making sure nobody gets separated before anything else.", archetype: "mama_bear" },
         { text: "By the end of the day you've somehow collected a suspicious number of new Instagram mutuals.", archetype: "mother" },
